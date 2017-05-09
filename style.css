@@ -1,0 +1,8 @@
+* {
+  text-align: center;
+}
+button {
+  align-self: center;
+  width: 150px;
+  height: 100px;
+}
