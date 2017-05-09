@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--
+  Create 3 list in a JavaScript file goodTrump/badTrump/sadTrump
+  use the indexOf function to compare the strings in the list to the string of the command
+  profit
+  -->
+    <meta charset="utf-8">
+    <title>A trump for every occasion</title>
+    <script>
+    function tfw(){
+    var TFW = document.getElementById("TFW").value
+    if (TFW == "mexicans"){
+      document.getElementById("image").innerHTML = "<img src='http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'>";
+    }
+    }
+    </script>
+  </head>
+  <body>
+    <h1> A trump for every occasion </h1>
+    <h3> There is always a trump for any occasion just ask right here</h3>
+    <div id = "image">
+
+    </div>
+<form>
+ Occasion: <input type="text" id ='TFW'><br>
+ <button type="button" onclick="tfw();">Submit</button>
+</form>
+  </body>
+</html>
