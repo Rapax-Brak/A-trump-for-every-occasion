@@ -9,7 +9,14 @@ var goodTrump = [
   "whites",
   "latinos",
   "latinas",
-  "mexicans"
+  "mexicans",
+  "church",
+  "christianity",
+  "god",
+  "jesus",
+  "church and state",
+  "trump",
+  "money"
 ];
 var badTrump = [
   "mexico",
@@ -17,11 +24,13 @@ var badTrump = [
   "muslims",
   "islamic terrorist",
   "terrorist",
-  "islam"
+  "islam",
+  "democrats"
 ];
 var sadTrump = [
   "death",
-  "no money"
+  "no money",
+  "abortion"
 ];
 var TFW = document.getElementById("TFW").value
 if (badTrump.indexOf(TFW) !== -1){
