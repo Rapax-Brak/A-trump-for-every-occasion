@@ -40,6 +40,13 @@ if (badTrump.indexOf(TFW) !== -1){
 }else if (sadTrump.indexOf(TFW) !== -1){
   document.getElementById("image").innerHTML = "<img src='https://i.imgflip.com/14c217.jpg'>";
 }else {
-  document.getElementById("image").innerHTML = "I am not programmed to respond";
-}
+  var failsafe = Math.floor(Math.random()*3);
+    if (failsafe === 0){
+      document.getElementById("image").innerHTML = "<img src='http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'>";
+    }else if (failsafe === 1){
+      document.getElementById("image").innerHTML = "<img src='http://noiimages.s3.amazonaws.com/images/redstate/20160614-1525871659.jpg'>";
+    }else {
+      document.getElementById("image").innerHTML = "<img src='https://i.imgflip.com/14c217.jpg'>";
+    }
+    }
 }
